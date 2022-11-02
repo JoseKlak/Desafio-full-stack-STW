@@ -19,4 +19,4 @@ create table receitas_ingredientes (
     Foreign Key (cod_ingredientes) REFERENCES ingredientes(id_ingredientes)
 );
 
-INSERT INTO ingredientes (descricao) VALUES ("Milho"), ("Farinha"), ("Premix");
+INSERT INTO ingredientes (descricao) VALUES ("milho"), ("farinha"), ("premix");

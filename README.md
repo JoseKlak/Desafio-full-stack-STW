@@ -17,11 +17,15 @@ Então ele irá ficar assim:
 ![](Imagens/xampp.png)
 
 
+* Apagar todos os itens da pasta: 
 
-## Clonar todo o repositorio para a seguinte pasta:
 C:\xampp\htdocs
 
+* Em seguida abrir o terminal na pasta em questão, e executar o comando:
 
+```git
+git clone https://github.com/JoseKlak/Desafio-full-stack-STW
+```
 
 ## Criando o banco de dados:
 
@@ -33,7 +37,7 @@ mysql -u root -p
 ```
 Criando o database:
 ```sql
-create database desafiostw;
+CREATE DATABASE desafiostw;
 ```
 Importando o arquivo banco.sql:
 ```bash
