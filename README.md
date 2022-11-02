@@ -5,22 +5,22 @@ Projeto para complementar o processo seletivo com a empresa STW automação.
 ### 📋 Pré-requisitos
 
 Download do software [Xampp](https://www.apachefriends.org/pt_br/index.html) <br>
-    * MySQL.
-    * PHP.
-    * Apache.
+    * MySQL <br>
+    * PHP <br>
+    * Apache <br>
 
 ## 📦 Implantação
 
     Primeiramente no terminal do "Xampp" clickar em "start", tanto no "Apache" quanto no "MySQL".
-Então ele irá ficar assim:
+Então ele irá ficar assim: <br>
 ![](Imagens/xampp.png)
 
------
+
 
     * Clonar todo o repositorio para a seguinte pasta:
         C:\xampp\htdocs
 
------
+
 
     * Criando o banco de dados:
 
@@ -33,7 +33,7 @@ Então ele irá ficar assim:
         ```bash
         mysql -u root -p desafiostw < banco.sql
         ```
-----
+
 
     * Considerações finais:
          Uma das principais dificuldades neste projeto, foi fazer a integração do projeto em si, devido a nunca antes ter feito um projeto integrando front-end, back-end e banco de dados. Com isso em mente, tentei fazer da maneira mais simples possível, utilizando apenas PHP e MySQL, para pelo menos conseguir entregar um projeto funcional.
