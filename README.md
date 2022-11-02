@@ -24,7 +24,8 @@ Então ele irá ficar assim: <br>
 
 ## Criando o banco de dados:
 
-        
+    * Insira os seguintes codigos no seu terminal, para criar o banco de dados: 
+            
         mysql -u root -p
         
         
