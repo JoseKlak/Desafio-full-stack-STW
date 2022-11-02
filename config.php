@@ -1,7 +1,7 @@
 <?php
     define('HOST', 'localhost');
     define('USER', 'root');
-    define('PASS', '123123123');
+    define('PASS', '');
     define('BASE', 'desafiostw');
 
     $conn = new MySQLi(HOST, USER, PASS, BASE);

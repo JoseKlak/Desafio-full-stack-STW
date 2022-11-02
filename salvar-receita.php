@@ -23,7 +23,7 @@
            //ingrediente 1
            if($nome_ingrediente != "" ) {
 
-               $sql = "SELECT * FROM ingredientes WHERE {$nome_ingrediente} = descricao";
+               $sql = "SELECT * FROM ingredientes WHERE descricao = '{$nome_ingrediente}'";
                $resultado = $conn->query($sql);
                $todos_ingredientes = $resultado->fetch_object();
 
@@ -51,7 +51,7 @@
            //ingrediente 2
            if($nome_ingrediente2 != "") {
 
-               $sql = "SELECT * FROM ingredientes WHERE {$nome_ingrediente2} = descricao";
+               $sql = "SELECT * FROM ingredientes WHERE descricao = '{$nome_ingrediente2}'";
                $resultado = $conn->query($sql);
                $todos_ingredientes = $resultado->fetch_object();
 
@@ -79,7 +79,7 @@
           //ingrediente 3
           if($nome_ingrediente3 != "") {
 
-               $sql = "SELECT * FROM ingredientes WHERE {$nome_ingrediente3} = descricao";
+               $sql = "SELECT * FROM ingredientes WHERE descricao = '{$nome_ingrediente3}'";
                $resultado = $conn->query($sql);
                $todos_ingredientes = $resultado->fetch_object();
 
@@ -107,7 +107,7 @@
           //ingrediente 4
           if($nome_ingrediente4 != "") {
 
-               $sql = "SELECT * FROM ingredientes WHERE {$nome_ingrediente4} = descricao";
+               $sql = "SELECT * FROM ingredientes WHERE descricao = '{$nome_ingrediente4}'";
                $resultado = $conn->query($sql);
                $todos_ingredientes = $resultado->fetch_object();
 
@@ -135,7 +135,7 @@
           //ingrediente 5
           if($nome_ingrediente5 != "") {
 
-               $sql = "SELECT * FROM ingredientes WHERE {$nome_ingrediente5} = descricao";
+               $sql = "SELECT * FROM ingredientes WHERE descricao = '{$nome_ingrediente5}'";
                $resultado = $conn->query($sql);
                $todos_ingredientes = $resultado->fetch_object();
 
