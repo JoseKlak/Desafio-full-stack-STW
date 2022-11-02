@@ -4,7 +4,7 @@ Projeto para complementar o processo seletivo com a empresa STW automação.
 
 ### 📋 Pré-requisitos
 
-Download do software [Xampp](https://www.apachefriends.org/pt_br/index.html).
+Download do software [Xampp](https://www.apachefriends.org/pt_br/index.html) <br>
     * MySQL.
     * PHP.
     * Apache.
