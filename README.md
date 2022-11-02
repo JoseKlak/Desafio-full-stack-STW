@@ -24,7 +24,7 @@ C:\xampp\htdocs
 
 ## Criando o banco de dados:
 
-* Insira os seguintes codigos no seu terminal, para criar o banco de dados: 
+* Insira os seguintes codigos no seu terminal, para criar o banco de dados.
 Fazendo o login no MySQL:
 ```bash
 mysql -u root -p
