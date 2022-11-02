@@ -31,7 +31,7 @@ Fazendo o login no MySQL:
 mysql -u root -p
 ```
 Criando o database:
-```bash
+```sql
 create database desafiostw;
 ```
 Importando o arquivo banco.sql:
