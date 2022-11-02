@@ -12,7 +12,8 @@ Download do software [Xampp](https://www.apachefriends.org/pt_br/index.html) <br
 ## 📦 Implantação
 
 Primeiramente no painel do "Xampp" clickar em "start", tanto no "Apache" quanto no "MySQL".
-Então ele irá ficar assim: <br>
+Então ele irá ficar assim:
+
 ![](Imagens/xampp.png)
 
 
